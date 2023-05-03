@@ -1,0 +1,28 @@
+@keyframes animacao{
+
+    0% {background-color: purple; top: 0px; left: 0px;}
+    50% {background-color: yellow; top: 40px; left: 40px;}
+    100% {background-color: purple; top: 0px; left: 0px;}
+}
+
+@keyframes animacao-retorno{
+
+    from {background-color: purple; top: 40px;}
+    to {background-color: yellow; top: 0px;}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: purple;
+    animation-name: animacao;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}

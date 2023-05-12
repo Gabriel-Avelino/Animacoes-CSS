@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    
+}
+
+.box{
+    outline: 5px solid #ff0000;
+}
+
+img{
+    transform: skewx(45deg) rotate(45deg) scale(1.1) translate(100px,100px);
+}

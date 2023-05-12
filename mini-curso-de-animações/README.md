@@ -38,3 +38,34 @@ Inclina um objeto em uma determinada direção.
 ---
 
 Obs: Além disso, é possível combinar cada um deles, só é necessário tomar cuidado ao sobrescrever o valor de um transform, pois se passarmos apenas um dos valores, os outros serão ignorados. 
+
+
+---
+
+## Transition
+
+É um conjunto de propriedades que definem como será a transição do objeto:
+
+---
+
+### Transition-property
+
+Permite escolher quais propriedades passarão pela transição. Se quisermos passar mais de uma propriedade, basta acrescentá-la usando vírgula.
+
+---
+
+### Transition-duration
+
+Define a duração da transição. Caso deseje acrescentar tempos diferentes para cada propriedade, basta acrescentar o valor usando vírgula
+
+---
+
+### Transition-delay
+
+Define um delay para o início de uma animação.
+
+---
+
+### transition-timing-function
+
+Define uma função de tempo específica para um objeto. Nela podemos passar vários valores, incluindo alguns padrões do navegador, que são `ease-in` (suaviza o início da transição), `ease-out`(suaviza o fim da transição), `ease-in-out` (suaviza o início e o fim da animação), entre outros. Também é possível utilizar uma função personalizada através da diretiva `cubic-bezier()` que receberá pontos da curva de animação.

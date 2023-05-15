@@ -2,6 +2,8 @@
 Repositório criado para o vídeo mini curso de animações CSS.
 
 
+---
+
 ## Transform
 
 É uma propriedade utilizada para definir modificações aos objetos. Ela pode receber vários atributos, entre eles:

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+svg{
+    animation: is-bouncing 1s ease alternate infinite;
+    width: 200px;
+    height: 200px;
+}
+
+@keyframes is-bouncing {
+    to{
+        transform: translateY(30px);
+    }
+}
